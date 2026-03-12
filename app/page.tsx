@@ -376,7 +376,7 @@ export default function Home() {
             {testimonials.map((testimonial, index) => (
               <Card
                 key={index}
-                className="bg-zinc-800/50 backdrop-blur border-zinc-700 animate-fade-in-up"
+                className="bg-zinc-800/50 backdrop-blur border-zinc-700 hover:border-orange-600 transition-all duration-300 hover:shadow-lg hover:shadow-orange-600/20 hover:-translate-y-1 group animate-fade-in-up"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <CardContent className="p-6">
