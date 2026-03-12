@@ -146,7 +146,7 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/design-mode/reboque-man.jpg"
+            src="/images/chaveiro-hero.jpg"
             alt="Chaveiro Autokey ABC"
             fill
             className="object-cover opacity-40"
@@ -313,7 +313,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto">
             <div className="relative aspect-square min-h-[200px] sm:col-span-2 sm:row-span-2 rounded-xl overflow-hidden group">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0g-image-chaveiro2-T510ev85vwoI1lWAKEGxvm7bKRGmyF.jpg"
+                src="/images/chaveiro-galeria-1.jpg"
                 alt="Atendimento 24 horas"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -328,7 +328,7 @@ export default function Home() {
 
             <div className="relative aspect-square min-h-[200px] rounded-xl overflow-hidden group">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0g-image-chaveiro2-T510ev85vwoI1lWAKEGxvm7bKRGmyF.jpg"
+                src="/images/chaveiro-galeria-2.jpg"
                 alt="Facilidade de pagamento"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -344,7 +344,7 @@ export default function Home() {
 
             <div className="relative aspect-square min-h-[200px] rounded-xl overflow-hidden group">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0g-image-chaveiro2-T510ev85vwoI1lWAKEGxvm7bKRGmyF.jpg"
+                src="/images/chaveiro-galeria-3.jpg"
                 alt="Garantia nos serviços"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -410,7 +410,7 @@ export default function Home() {
 
       <section className="relative py-20 sm:py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/images/design-mode/reboque-1200x675.jpg" alt="Chaveiro 24h" fill className="object-cover" />
+          <Image src="/images/chaveiro-cta.jpg" alt="Chaveiro 24h" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-zinc-900/90 to-orange-900/40" />
         </div>
 
