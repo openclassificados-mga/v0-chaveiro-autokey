@@ -311,9 +311,9 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto">
-            <div className="relative aspect-square sm:col-span-2 sm:row-span-2 rounded-xl overflow-hidden group">
+            <div className="relative aspect-square min-h-[200px] sm:col-span-2 sm:row-span-2 rounded-xl overflow-hidden group">
               <Image
-                src="/tow-truck-highway-night.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0g-image-chaveiro2-T510ev85vwoI1lWAKEGxvm7bKRGmyF.jpg"
                 alt="Atendimento 24 horas"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -326,9 +326,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative aspect-square rounded-xl overflow-hidden group">
+            <div className="relative aspect-square min-h-[200px] rounded-xl overflow-hidden group">
               <Image
-                src="/tow-truck-loading-vehicle.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0g-image-chaveiro2-T510ev85vwoI1lWAKEGxvm7bKRGmyF.jpg"
                 alt="Facilidade de pagamento"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -342,9 +342,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative aspect-square rounded-xl overflow-hidden group">
+            <div className="relative aspect-square min-h-[200px] rounded-xl overflow-hidden group">
               <Image
-                src="/emergency-towing-service.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0g-image-chaveiro2-T510ev85vwoI1lWAKEGxvm7bKRGmyF.jpg"
                 alt="Garantia nos serviços"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
