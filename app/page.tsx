@@ -494,8 +494,8 @@ export default function Home(): JSX.Element {
               <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4">
                 Atendimento exclusivamente domiciliar em São Paulo e Região do Grande ABC. Serviços: Aberturas, Chaves, Fechaduras, Controles, Tags, Manutenção em cilindros de ignição e fechaduras automotivas.
               </p>
-              <div className="flex gap-3">
-                <Button asChild size="sm" className="bg-green-600 hover:bg-green-700 text-white">
+              <div className="flex gap-3 justify-center sm:justify-start lg:justify-start">
+                <Button asChild size="sm" className="bg-orange-600 hover:bg-orange-700 text-white">
                   <a href="https://wa.me/5511910307671?text=Solicito%20atendimento" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="w-4 h-4 mr-2" />
                     WhatsApp
