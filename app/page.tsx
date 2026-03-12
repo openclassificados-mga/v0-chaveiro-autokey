@@ -453,7 +453,18 @@ export default function Home() {
 
       <footer className="bg-zinc-950 border-t border-zinc-800 py-8 sm:py-12">
         <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-6xl mx-auto">
+
+            <div className="flex flex-col items-center justify-center sm:col-span-2 lg:col-span-1">
+              <Image
+                src="/images/logo-autokey.png"
+                alt="Logo Chaveiro Autokey ABC"
+                width={180}
+                height={180}
+                className="object-contain"
+              />
+            </div>
+
             <div className="sm:col-span-2 lg:col-span-1">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Chaveiro Autokey ABC</h3>
               <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4">
