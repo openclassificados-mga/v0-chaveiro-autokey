@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   creator: "Chaveiro Autokey ABC",
   publisher: "Chaveiro Autokey ABC",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
