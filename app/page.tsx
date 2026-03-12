@@ -489,7 +489,7 @@ export default function Home(): JSX.Element {
               />
             </div>
 
-            <div className="sm:col-span-2 lg:col-span-1 flex flex-col items-center sm:items-start lg:items-start text-center sm:text-left">
+            <div className="sm:col-span-2 lg:col-span-1">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Chaveiro Autokey ABC</h3>
               <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4">
                 Atendimento exclusivamente domiciliar em São Paulo e Região do Grande ABC. Serviços: Aberturas, Chaves, Fechaduras, Controles, Tags, Manutenção em cilindros de ignição e fechaduras automotivas.
@@ -515,9 +515,9 @@ export default function Home(): JSX.Element {
               </div>
             </div>
 
-            <div className="flex flex-col items-center sm:items-start lg:items-start">
+            <div>
               <h4 className="text-base sm:text-lg font-semibold text-white mb-3 sm:mb-4">Nossos Serviços</h4>
-              <ul className="space-y-2 text-sm sm:text-base text-zinc-400 text-center sm:text-left">
+              <ul className="space-y-2 text-sm sm:text-base text-zinc-400">
                 <li>Aberturas Residenciais e Automotivas</li>
                 <li>Cópia de Chaves</li>
                 <li>Instalação de Fechaduras</li>
@@ -527,7 +527,7 @@ export default function Home(): JSX.Element {
               </ul>
             </div>
 
-            <div className="flex flex-col items-center sm:items-start lg:items-start">
+            <div>
               <h4 className="text-base sm:text-lg font-semibold text-white mb-3 sm:mb-4">Contato</h4>
               <div className="space-y-3 text-sm sm:text-base text-zinc-400">
                 <div className="flex items-start gap-2">
