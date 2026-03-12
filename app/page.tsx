@@ -1,28 +1,28 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Navigation } from "@/components/navigation"
-import { Truck, Phone, MapPin, Clock, Shield, Wrench, CheckCircle, Award, MessageCircle } from "lucide-react"
+import { Key, Phone, MapPin, Clock, Shield, Lock, CheckCircle, Award, MessageCircle, Smartphone, Tag } from "lucide-react"
 import Image from "next/image"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Auto Socorro Express - Guincho 24h em Maringá | (11) 91030-7671",
+  title: "Chaveiro Autokey ABC | Atendimento 24h em São Paulo e ABC",
   description:
-    "Guincho 24 horas em Maringá e região. Atendimento rápido e seguro para carros, motos, caminhões e vans. Socorro emergencial disponível a qualquer hora do dia ou da noite. Ligue agora: (11) 91030-7671",
+    "Chaveiro Autokey ABC: atendimento domiciliar 24h em São Paulo e Grande ABC. Aberturas, cópia de chaves, instalação de fechaduras e controles. Garanta segurança com quem entende do assunto!",
   keywords:
-    "guincho maringá, auto socorro 24h, guincho leve, guincho pesado, socorro emergencial, reboque maringá, guincho rodovia, guincho noturno, remoção veículos",
+    "chaveiro, chaveiro 24h, chaveiro são paulo, chaveiro abc, abertura de fechadura, cópia de chave, chave automotiva, fechadura digital, controle de portão, tag de acesso",
   openGraph: {
-    title: "Auto Socorro Express - Guincho 24h em Maringá",
+    title: "Chaveiro Autokey ABC | Atendimento 24h",
     description:
-      "Seu carro quebrou? Atendimento rápido e seguro 24h. Guincho leve e pesado em Maringá e região. Ligue: (11) 91030-7671",
-    url: "https://autosocorroexpress.vercel.app",
-    siteName: "Auto Socorro Express",
+      "Precisa de chaveiro agora? Atendimento domiciliar 24h em São Paulo e ABC. Aberturas, chaves, fechaduras e controles com garantia.",
+    url: "https://v0-chaveiro-autokey.vercel.app",
+    siteName: "Chaveiro Autokey ABC",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Auto Socorro Express - Guincho 24h",
+        alt: "Chaveiro Autokey ABC - Atendimento 24h",
       },
     ],
     locale: "pt_BR",
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Auto Socorro Express - Guincho 24h em Maringá",
-    description: "Seu carro quebrou? Atendimento rápido e seguro 24h. Guincho leve e pesado em Maringá e região.",
+    title: "Chaveiro Autokey ABC | 24h",
+    description: "Atendimento domiciliar 24h em São Paulo e ABC. Chaveiro profissional com garantia e preço justo.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -39,78 +39,78 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://autosocorroexpress.vercel.app",
+    canonical: "https://v0-chaveiro-autokey.vercel.app",
   },
 }
 
 export default function Home() {
   const services = [
     {
-      icon: Truck,
-      title: "Guincho Leve",
-      description: "Remoção de carros, motos e veículos de pequeno porte",
+      icon: Lock,
+      title: "Aberturas Residenciais e Automotivas",
+      description: "Desbloqueio profissional de portas, veículos e motocicletas sem danificar a fechadura",
     },
     {
-      icon: Truck,
-      title: "Guincho Pesado",
-      description: "Transporte de caminhões, vans e veículos de grande porte",
-    },
-    {
-      icon: Wrench,
-      title: "Socorro Emergencial",
-      description: "Atendimento rápido para pneu furado, bateria descarregada e mais",
-    },
-    {
-      icon: MapPin,
-      title: "Atendimento em Rodovias",
-      description: "Cobertura completa em rodovias e estradas da região",
+      icon: Key,
+      title: "Cópia de Chaves",
+      description: "Confecção de chave simples, canivete ou presencial para veículos e motocicletas",
     },
     {
       icon: Shield,
-      title: "Remoção Segura",
-      description: "Equipamentos modernos para transporte sem danos",
+      title: "Instalação de Fechaduras",
+      description: "Instalação de fechaduras mecânicas ou digitais com garantia e segurança",
+    },
+    {
+      icon: Smartphone,
+      title: "Controles para Portão",
+      description: "Cópia ou configuração de controles para portão automático de condomínios e residências",
+    },
+    {
+      icon: Tag,
+      title: "Tag de Acesso",
+      description: "Cópia de Tag de acesso para condomínios ou empresas com tecnologia RFID",
     },
     {
       icon: Clock,
-      title: "Disponível 24h",
-      description: "Atendimento a qualquer hora do dia ou da noite",
+      title: "Troca de Segredo",
+      description: "Troca de segredo para fechaduras residenciais mantendo a mesma chave",
     },
   ]
 
   const testimonials = [
     {
       name: "Carlos Silva",
-      text: "Serviço rápido e profissional. Meu carro quebrou na rodovia e em 20 minutos já estavam me atendendo!",
+      text: "Precisei abrir meu carro urgentemente e o Chaveiro Autokey ABC chegou em minutos. Serviço impecável!",
       rating: 5,
       image: "/images/pedro.png",
     },
     {
       name: "Ana Paula",
-      text: "Equipe muito atenciosa e preço justo. Super recomendo o Auto Socorro Express!",
+      text: "Fiz a cópia de uma chave canivete e ficou perfeita. Preço justo e atendimento muito profissional.",
       rating: 5,
       image: "/images/marina.png",
     },
     {
       name: "Roberto Santos",
-      text: "Precisei de guincho pesado para minha van. Fizeram o trabalho com muito cuidado e eficiência.",
+      text: "Instalaram uma fechadura digital na minha casa com muita técnica. Recomendo demais!",
       rating: 5,
       image: "/images/antonio.png",
     },
     {
       name: "Sueli Oliveira",
-      text: "Atendimento excelente! Tive um problema com pneu furado tarde da noite e eles chegaram super rápido. Muito profissionais!",
+      text: "Perdi a chave do portão do condomínio e eles copiaram a tag na hora. Salvaram meu dia!",
       rating: 5,
       image: "/images/sueli.png",
     },
     {
       name: "Marcos e Carla",
-      text: "Ficamos presos na estrada voltando de viagem. O Auto Socorro Express nos salvou! Serviço de confiança e preço honesto.",
+      text: "Tivemos um problema com a fechadura de madrugada e o atendimento 24h funcionou perfeitamente.",
       rating: 5,
       image: "/images/9.png",
     },
     {
       name: "Juliana Costa",
-      text: "Já usei o serviço duas vezes e sempre fui muito bem atendida. Equipe educada e cuidadosa com o veículo. Recomendo!",
+      text: "Já usei várias vezes para cópia de chaves e sempre fui bem atendida. Equipe de confiança!",
       rating: 5,
       image: "/images/6.png",
     },
@@ -120,22 +120,22 @@ export default function Home() {
     {
       step: "1",
       title: "Entre em Contato",
-      description: "Ligue ou chame no WhatsApp (11) 91030-7671",
+      description: "Ligue ou chame no WhatsApp e informe sua necessidade",
     },
     {
       step: "2",
       title: "Envie sua Localização",
-      description: "Compartilhe onde você está para agilizar o atendimento",
+      description: "Compartilhe onde você está em São Paulo ou região do ABC para agilizar",
     },
     {
       step: "3",
-      title: "Aguarde o Guincho",
-      description: "Nossa equipe chega rapidamente ao local",
+      title: "Aguarde o Chaveiro",
+      description: "Nosso profissional qualificado chega rapidamente ao local",
     },
     {
       step: "4",
-      title: "Destino Seguro",
-      description: "Transportamos seu veículo com segurança até o destino",
+      title: "Serviço Concluído",
+      description: "Seu problema resolvido com garantia, segurança e satisfação",
     },
   ]
 
@@ -147,7 +147,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/design-mode/reboque-man.jpg"
-            alt="Auto Socorro Express"
+            alt="Chaveiro Autokey ABC"
             fill
             className="object-cover opacity-40"
             priority
@@ -163,7 +163,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 text-balance animate-fade-in-up [animation-delay:100ms] px-2">
-            Seu carro <span className="text-orange-500">quebrou?</span>
+            Precisa de um <span className="text-orange-500">chaveiro agora?</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-zinc-300 mb-6 sm:mb-8 max-w-3xl mx-auto text-balance animate-fade-in-up [animation-delay:200ms] px-4">
             Estamos prontos para ajudar.
@@ -212,17 +212,17 @@ export default function Home() {
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center gap-2 mb-2">
-                <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-orange-500" />
-                <div className="text-3xl sm:text-4xl font-bold text-white">10.000+</div>
+                <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-orange-500" />
+                <div className="text-3xl sm:text-4xl font-bold text-white">ABC + SP</div>
               </div>
-              <p className="text-sm sm:text-base text-zinc-400">Atendimentos Realizados</p>
+              <p className="text-sm sm:text-base text-zinc-400">Atendimento Domiciliar</p>
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center gap-2 mb-2">
                 <Award className="w-5 h-5 sm:w-6 sm:h-6 text-orange-500" />
                 <div className="text-3xl sm:text-4xl font-bold text-white">15 min</div>
               </div>
-              <p className="text-sm sm:text-base text-zinc-400">Tempo Médio de Resposta</p>
+              <p className="text-sm sm:text-base text-zinc-400">Tempo Médio de Chegada</p>
             </div>
           </div>
         </div>
@@ -241,7 +241,7 @@ export default function Home() {
               Como Podemos Ajudar
             </h2>
             <p className="text-zinc-400 text-base sm:text-lg px-4">
-              Atendimento rápido e seguro para qualquer situação
+              Atendimento rápido e seguro para qualquer situação com chaves e fechaduras
             </p>
           </div>
 
@@ -301,12 +301,12 @@ export default function Home() {
       <section id="galeria" className="py-12 sm:py-16 lg:py-20 bg-zinc-900">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-12">
-            <span className="text-orange-500 font-semibold text-xs sm:text-sm uppercase tracking-wider">Galeria</span>
+            <span className="text-orange-500 font-semibold text-xs sm:text-sm uppercase tracking-wider">Diferenciais</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-2 mb-3 sm:mb-4 px-4">
-              Nosso Trabalho
+              Por Que Nos Escolher
             </h2>
             <p className="text-zinc-400 text-base sm:text-lg px-4">
-              Equipamentos modernos e profissionais qualificados
+              Profissionais qualificados e equipamentos modernos
             </p>
           </div>
 
@@ -314,14 +314,14 @@ export default function Home() {
             <div className="relative aspect-square sm:col-span-2 sm:row-span-2 rounded-xl overflow-hidden group">
               <Image
                 src="/tow-truck-highway-night.jpg"
-                alt="Guincho na rodovia"
+                alt="Atendimento 24 horas"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
               <div className="absolute inset-0 flex flex-col justify-end p-4 sm:p-6">
-                <span className="text-orange-500 font-semibold text-xs sm:text-sm mb-1 sm:mb-2">DESTAQUE</span>
-                <p className="text-white font-bold text-xl sm:text-2xl mb-1 sm:mb-2">Atendimento em Rodovias</p>
+                <span className="text-orange-500 font-semibold text-xs sm:text-sm mb-1 sm:mb-2">24 HORAS</span>
+                <p className="text-white font-bold text-xl sm:text-2xl mb-1 sm:mb-2">Atendimento em Todo ABC e Zona Sul de SP</p>
                 <p className="text-zinc-300 text-xs sm:text-sm">Cobertura completa 24 horas</p>
               </div>
             </div>
@@ -329,14 +329,15 @@ export default function Home() {
             <div className="relative aspect-square rounded-xl overflow-hidden group">
               <Image
                 src="/tow-truck-loading-vehicle.jpg"
-                alt="Carregamento seguro"
+                alt="Facilidade de pagamento"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
                 <div className="p-3 sm:p-4">
-                  <span className="text-orange-500 text-xs font-semibold">GUINCHO LEVE</span>
-                  <p className="text-white font-semibold text-sm sm:text-base">Carros e Motos</p>
+                  <span className="text-orange-500 text-xs font-semibold">FACILIDADE</span>
+                  <p className="text-white font-semibold text-sm sm:text-base">Aceitamos Cartões e Parcelamento sem Juros*</p>
+                  <p className="text-zinc-400 text-xs mt-1">*Parcelamento sujeito ao valor do serviço</p>
                 </div>
               </div>
             </div>
@@ -344,14 +345,14 @@ export default function Home() {
             <div className="relative aspect-square rounded-xl overflow-hidden group">
               <Image
                 src="/emergency-towing-service.jpg"
-                alt="Socorro emergencial"
+                alt="Garantia nos serviços"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
                 <div className="p-3 sm:p-4">
-                  <span className="text-orange-500 text-xs font-semibold">EMERGÊNCIA</span>
-                  <p className="text-white font-semibold text-sm sm:text-base">Resposta Rápida</p>
+                  <span className="text-orange-500 text-xs font-semibold">GARANTIA</span>
+                  <p className="text-white font-semibold text-sm sm:text-base">3 Meses em Chaves Automotivas e Instalações</p>
                 </div>
               </div>
             </div>
@@ -368,6 +369,7 @@ export default function Home() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-2 mb-3 sm:mb-4 px-4">
               O Que Dizem Nossos Clientes
             </h2>
+            <p className="text-zinc-400 text-base sm:text-lg px-4">Confiança e qualidade em cada atendimento</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -408,16 +410,16 @@ export default function Home() {
 
       <section className="relative py-20 sm:py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/images/design-mode/reboque-1200x675.jpg" alt="Socorro 24h" fill className="object-cover" />
+          <Image src="/images/design-mode/reboque-1200x675.jpg" alt="Chaveiro 24h" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-zinc-900/90 to-orange-900/40" />
         </div>
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 text-balance">
-            Precisa de <span className="text-orange-500">socorro agora?</span>
+            Precisa de um <span className="text-orange-500">chaveiro agora?</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-zinc-300 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
-            Estamos prontos para atender você 24 horas por dia, 7 dias por semana
+            Atendimento domiciliar 24 horas em São Paulo e toda região do Grande ABC
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <Button
@@ -431,7 +433,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <MessageCircle className="w-6 h-6 mr-2" />
-                Pedir Socorro Agora
+                Pedir Chaveiro Agora
               </a>
             </Button>
             <Button
@@ -464,10 +466,9 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
             <div className="sm:col-span-2 lg:col-span-1">
-              <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Auto Socorro Express</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Chaveiro Autokey ABC</h3>
               <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4">
-                Atendimento 24 horas para guincho leve e pesado, socorro emergencial e remoção de veículos em Maringá e
-                região.
+                Atendimento exclusivamente domiciliar em São Paulo e Região do Grande ABC. Serviços: Aberturas, Chaves, Fechaduras, Controles e Tags.
               </p>
               <div className="flex gap-3">
                 <Button asChild size="sm" className="bg-green-600 hover:bg-green-700 text-white">
@@ -493,12 +494,12 @@ export default function Home() {
             <div>
               <h4 className="text-base sm:text-lg font-semibold text-white mb-3 sm:mb-4">Nossos Serviços</h4>
               <ul className="space-y-2 text-sm sm:text-base text-zinc-400">
-                <li>Guincho Leve</li>
-                <li>Guincho Pesado</li>
-                <li>Socorro Emergencial</li>
-                <li>Atendimento em Rodovias</li>
-                <li>Remoção de Veículos</li>
-                <li>Disponível 24h</li>
+                <li>Aberturas Residenciais e Automotivas</li>
+                <li>Cópia de Chaves</li>
+                <li>Instalação de Fechaduras</li>
+                <li>Controles para Portão</li>
+                <li>Tag de Acesso</li>
+                <li>Troca de Segredo</li>
               </ul>
             </div>
 
@@ -509,7 +510,7 @@ export default function Home() {
                   <MapPin className="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" />
                   <div>
                     <p className="font-semibold text-white">Área de Atendimento:</p>
-                    <p>Maringá - PR e região</p>
+                    <p>São Paulo e Região do Grande ABC</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
@@ -540,8 +541,8 @@ export default function Home() {
           </div>
 
           <div className="border-t border-zinc-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-zinc-500">
-            <p>&copy; {new Date().getFullYear()} Auto Socorro Express. Todos os direitos reservados.</p>
-            <p className="mt-2">Atendimento 24 horas em Maringá e região</p>
+            <p>&copy; {new Date().getFullYear()} Chaveiro Autokey ABC. Todos os direitos reservados.</p>
+            <p className="mt-2">Atendimento domiciliar 24 horas em São Paulo e Grande ABC</p>
           </div>
         </div>
       </footer>
