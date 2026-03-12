@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     siteName: "Chaveiro Autokey ABC",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0g-image-chaveiro2-Em5w6s0ILdhoXNwLL2cGQlF4MiDT1w.jpg",
         width: 1200,
         height: 630,
-        alt: "Chaveiro Autokey ABC - Atendimento 24h",
+        alt: "Chaveiro Autokey ABC - Perdeu as chaves? Não se preocupe!",
       },
     ],
     locale: "pt_BR",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Chaveiro Autokey ABC | 24h",
     description: "Atendimento domiciliar 24h em São Paulo e ABC. Chaveiro profissional com garantia e preço justo.",
-    images: ["/og-image.jpg"],
+    images: ["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0g-image-chaveiro2-Em5w6s0ILdhoXNwLL2cGQlF4MiDT1w.jpg"],
   },
   robots: {
     index: true,
