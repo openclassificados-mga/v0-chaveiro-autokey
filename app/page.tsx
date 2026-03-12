@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Navigation } from "@/components/navigation"
-import { Key, Phone, MapPin, Clock, Shield, Lock, CheckCircle, Award, MessageCircle, Smartphone, Tag } from "lucide-react"
+import { Key, Phone, MapPin, Clock, Shield, Lock, CheckCircle, Award, MessageCircle, Smartphone, Tag, LucideIcon } from "lucide-react"
 import Image from "next/image"
 import type { Metadata } from "next"
 
@@ -43,8 +43,12 @@ export const metadata: Metadata = {
   },
 }
 
-export default function Home() {
-  const services = [
+export default function Home(): JSX.Element {
+  const services: Array<{
+    icon: LucideIcon
+    title: string
+    description: string
+  }> = [
     {
       icon: Lock,
       title: "Aberturas Residenciais e Automotivas",
@@ -77,7 +81,12 @@ export default function Home() {
     },
   ]
 
-  const testimonials = [
+  const testimonials: Array<{
+    name: string
+    text: string
+    rating: number
+    image: string
+  }> = [
     {
       name: "Carlos Silva",
       text: "Precisei abrir meu carro urgentemente e o Chaveiro Autokey ABC chegou em minutos. Serviço impecável!",
@@ -116,7 +125,11 @@ export default function Home() {
     },
   ]
 
-  const howItWorks = [
+  const howItWorks: Array<{
+    step: string
+    title: string
+    description: string
+  }> = [
     {
       step: "1",
       title: "Entre em Contato",
