@@ -157,6 +157,17 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center">
+          <div className="flex justify-center mb-4 sm:mb-6 animate-fade-in-up">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-autokey-MpHOVBDCheNw3CEnzXe4ZZxRp6nWtf.png"
+              alt="Logo Chaveiro Autokey ABC"
+              width={140}
+              height={140}
+              className="object-contain drop-shadow-2xl"
+              priority
+            />
+          </div>
+
           <div className="inline-flex items-center gap-2 bg-orange-600/20 border border-orange-600/50 rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 animate-fade-in-up">
             <Clock className="w-3 h-3 sm:w-4 sm:h-4 text-orange-500" />
             <span className="text-orange-500 text-xs sm:text-sm font-semibold">Atendimento 24 horas</span>
@@ -453,7 +464,18 @@ export default function Home() {
 
       <footer className="bg-zinc-950 border-t border-zinc-800 py-8 sm:py-12">
         <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-6xl mx-auto">
+
+            <div className="flex flex-col items-center justify-center sm:col-span-2 lg:col-span-1">
+              <Image
+                src="/images/logo-autokey.png"
+                alt="Logo Chaveiro Autokey ABC"
+                width={180}
+                height={180}
+                className="object-contain"
+              />
+            </div>
+
             <div className="sm:col-span-2 lg:col-span-1">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Chaveiro Autokey ABC</h3>
               <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4">
@@ -532,6 +554,7 @@ export default function Home() {
           <div className="border-t border-zinc-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-zinc-500">
             <p>&copy; {new Date().getFullYear()} Chaveiro Autokey ABC. Todos os direitos reservados.</p>
             <p className="mt-2">Atendimento domiciliar 24 horas em São Paulo e Grande ABC</p>
+            <p className="mt-4 text-zinc-600 border-t border-zinc-700 pt-4">Criado por <a href="https://webstudiomga.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-500 transition-colors font-semibold">Webstudio</a></p>
           </div>
         </div>
       </footer>
