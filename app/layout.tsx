@@ -10,11 +10,11 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   metadataBase: new URL("https://autosocorroexpress.vercel.app"),
   title: {
-    default: "Auto Socorro Express - Guincho 24h em Maringá | (44) 99999-9999",
+    default: "Auto Socorro Express - Guincho 24h em Maringá | (11) 91030-7671",
     template: "%s | Auto Socorro Express",
   },
   description:
-    "Guincho 24 horas em Maringá e região. Atendimento rápido e seguro para carros, motos, caminhões e vans. Ligue agora: (44) 99999-9999",
+    "Guincho 24 horas em Maringá e região. Atendimento rápido e seguro para carros, motos, caminhões e vans. Ligue agora: (11) 91030-7671",
   keywords: "guincho maringá, auto socorro 24h, guincho leve, guincho pesado, socorro emergencial, reboque maringá",
   authors: [{ name: "Auto Socorro Express" }],
   creator: "Auto Socorro Express",

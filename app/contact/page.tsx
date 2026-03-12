@@ -89,10 +89,14 @@ export default function ContactPage() {
                   <div className="flex items-start gap-4">
                     <Phone className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="text-lg font-semibold text-white mb-2">Phone Contact</h3>
-                      <p className="text-zinc-300 leading-relaxed">
-                        Call or email us for questions or to make an appointment. We are happy to help you!
-                      </p>
+                      <h3 className="text-lg font-semibold text-white mb-2">Telefone</h3>
+                      <a
+                        href="tel:+5511910307671"
+                        className="text-zinc-300 hover:text-orange-600 transition-colors font-semibold"
+                      >
+                        (11) 91030-7671
+                      </a>
+                      <p className="text-zinc-400 text-sm mt-2">Disponível 24 horas, 7 dias por semana</p>
                     </div>
                   </div>
                 </CardContent>

@@ -6,15 +6,15 @@ import Image from "next/image"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Auto Socorro Express - Guincho 24h em Maringá | (44) 99999-9999",
+  title: "Auto Socorro Express - Guincho 24h em Maringá | (11) 91030-7671",
   description:
-    "Guincho 24 horas em Maringá e região. Atendimento rápido e seguro para carros, motos, caminhões e vans. Socorro emergencial disponível a qualquer hora do dia ou da noite. Ligue agora: (44) 99999-9999",
+    "Guincho 24 horas em Maringá e região. Atendimento rápido e seguro para carros, motos, caminhões e vans. Socorro emergencial disponível a qualquer hora do dia ou da noite. Ligue agora: (11) 91030-7671",
   keywords:
     "guincho maringá, auto socorro 24h, guincho leve, guincho pesado, socorro emergencial, reboque maringá, guincho rodovia, guincho noturno, remoção veículos",
   openGraph: {
     title: "Auto Socorro Express - Guincho 24h em Maringá",
     description:
-      "Seu carro quebrou? Atendimento rápido e seguro 24h. Guincho leve e pesado em Maringá e região. Ligue: (44) 99999-9999",
+      "Seu carro quebrou? Atendimento rápido e seguro 24h. Guincho leve e pesado em Maringá e região. Ligue: (11) 91030-7671",
     url: "https://autosocorroexpress.vercel.app",
     siteName: "Auto Socorro Express",
     images: [
@@ -120,7 +120,7 @@ export default function Home() {
     {
       step: "1",
       title: "Entre em Contato",
-      description: "Ligue ou chame no WhatsApp (44) 99999-9999",
+      description: "Ligue ou chame no WhatsApp (11) 91030-7671",
     },
     {
       step: "2",
@@ -177,7 +177,7 @@ export default function Home() {
               className="bg-orange-600 hover:bg-orange-700 text-white text-base sm:text-lg px-6 sm:px-8 shadow-lg shadow-orange-600/30 hover:shadow-orange-600/50 transition-all hover:scale-105 w-full sm:w-auto"
             >
               <a
-                href="https://wa.me/5544999999999?text=Olá,%20preciso%20de%20socorro!"
+                href="https://wa.me/5511910307671?text=Solicito%20atendimento"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -191,7 +191,7 @@ export default function Home() {
               variant="outline"
               className="border-zinc-600 text-white hover:bg-zinc-800 text-base sm:text-lg px-6 sm:px-8 bg-transparent hover:border-orange-600 transition-all w-full sm:w-auto"
             >
-              <a href="tel:+5544999999999">
+              <a href="tel:+5511910307671">
                 <Phone className="w-5 h-5 mr-2" />
                 Ligar Agora
               </a>
@@ -426,7 +426,7 @@ export default function Home() {
               className="bg-orange-600 hover:bg-orange-700 text-white text-lg sm:text-xl px-8 sm:px-12 py-5 sm:py-6 shadow-2xl shadow-orange-600/40 hover:shadow-orange-600/60 transition-all hover:scale-105 w-full sm:w-auto"
             >
               <a
-                href="https://wa.me/5544999999999?text=Olá,%20preciso%20de%20socorro!"
+                href="https://wa.me/5511910307671?text=Solicito%20atendimento"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -440,9 +440,20 @@ export default function Home() {
               variant="outline"
               className="border-white/30 text-white hover:bg-white/10 text-lg sm:text-xl px-8 sm:px-12 py-5 sm:py-6 bg-transparent transition-all w-full sm:w-auto"
             >
-              <a href="tel:+5544999999999">
+              <a href="tel:+5511910307671">
                 <Phone className="w-6 h-6 mr-2" />
-                (44) 99999-9999
+                Ligar (11) 91030-7671
+              </a>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-white/30 text-white hover:bg-white/10 text-lg sm:text-xl px-8 sm:px-12 py-5 sm:py-6 bg-transparent transition-all w-full sm:w-auto"
+            >
+              <a href="tel:+5511910307671">
+                <Phone className="w-6 h-6 mr-2" />
+                (11) 91030-7671
               </a>
             </Button>
           </div>
@@ -460,7 +471,7 @@ export default function Home() {
               </p>
               <div className="flex gap-3">
                 <Button asChild size="sm" className="bg-green-600 hover:bg-green-700 text-white">
-                  <a href="https://wa.me/5544999999999" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/5511910307671?text=Solicito%20atendimento" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="w-4 h-4 mr-2" />
                     WhatsApp
                   </a>
@@ -471,7 +482,7 @@ export default function Home() {
                   variant="outline"
                   className="border-zinc-600 text-white hover:bg-zinc-800 bg-transparent"
                 >
-                  <a href="tel:+5544999999999">
+                  <a href="tel:+5511910307671">
                     <Phone className="w-4 h-4 mr-2" />
                     Ligar
                   </a>
@@ -505,8 +516,8 @@ export default function Home() {
                   <Phone className="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" />
                   <div>
                     <p className="font-semibold text-white">Telefone:</p>
-                    <a href="tel:+5544999999999" className="hover:text-orange-600 transition-colors">
-                      (44) 99999-9999
+                    <a href="tel:+5511910307671" className="hover:text-orange-600 transition-colors">
+                      (11) 91030-7671
                     </a>
                   </div>
                 </div>
@@ -515,12 +526,12 @@ export default function Home() {
                   <div>
                     <p className="font-semibold text-white">WhatsApp:</p>
                     <a
-                      href="https://wa.me/5544999999999"
+                      href="https://wa.me/5511910307671?text=Solicito%20atendimento"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-orange-600 transition-colors"
                     >
-                      (44) 99999-9999
+                      (11) 91030-7671
                     </a>
                   </div>
                 </div>
