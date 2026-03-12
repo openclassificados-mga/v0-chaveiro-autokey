@@ -257,7 +257,7 @@ export default function OffertePage() {
                 </div>
 
                 <Button type="submit" className="w-full bg-orange-600 hover:bg-orange-700 text-white text-lg py-6">
-                  Request Quote
+                  Solicitar Orçamento
                 </Button>
               </form>
             </CardContent>

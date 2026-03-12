@@ -54,14 +54,14 @@ export function Navigation() {
               variant="outline"
               className="hidden sm:inline-flex border-zinc-600 text-white hover:bg-zinc-800 bg-transparent"
             >
-              <a href="tel:+5544999999999">
+              <a href="tel:+5511910307671">
                 <Phone className="w-4 h-4 mr-2" />
                 Ligar
               </a>
             </Button>
             <Button asChild className="hidden sm:inline-flex bg-orange-600 hover:bg-orange-700 text-white">
               <a
-                href="https://wa.me/5544999999999?text=Olá,%20preciso%20de%20socorro!"
+                href="https://wa.me/5511910307671?text=Solicito%20atendimento"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -126,14 +126,14 @@ export function Navigation() {
               variant="outline"
               className="w-full border-zinc-600 text-white hover:bg-zinc-800 bg-transparent"
             >
-              <a href="tel:+5544999999999">
+              <a href="tel:+5511910307671">
                 <Phone className="w-4 h-4 mr-2" />
                 Ligar Agora
               </a>
             </Button>
             <Button asChild className="w-full bg-orange-600 hover:bg-orange-700 text-white">
               <a
-                href="https://wa.me/5544999999999?text=Olá,%20preciso%20de%20socorro!"
+                href="https://wa.me/5511910307671?text=Solicito%20atendimento"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={closeMobileMenu}
