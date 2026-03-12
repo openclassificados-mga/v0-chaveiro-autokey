@@ -447,17 +447,6 @@ export default function Home() {
                 Ligar (11) 91030-7671
               </a>
             </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-white/30 text-white hover:bg-white/10 text-lg sm:text-xl px-8 sm:px-12 py-5 sm:py-6 bg-transparent transition-all w-full sm:w-auto"
-            >
-              <a href="tel:+5511910307671">
-                <Phone className="w-6 h-6 mr-2" />
-                (11) 91030-7671
-              </a>
-            </Button>
           </div>
         </div>
       </section>
