@@ -468,7 +468,7 @@ export default function Home() {
             <div className="sm:col-span-2 lg:col-span-1">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Chaveiro Autokey ABC</h3>
               <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4">
-                Atendimento exclusivamente domiciliar em São Paulo e Região do Grande ABC. Serviços: Aberturas, Chaves, Fechaduras, Controles e Tags.
+                Atendimento exclusivamente domiciliar em São Paulo e Região do Grande ABC. Serviços: Aberturas, Chaves, Fechaduras, Controles, Tags, Manutenção em cilindros de ignição e fechaduras automotivas.
               </p>
               <div className="flex gap-3">
                 <Button asChild size="sm" className="bg-green-600 hover:bg-green-700 text-white">
