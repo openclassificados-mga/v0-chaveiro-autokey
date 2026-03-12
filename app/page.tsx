@@ -157,6 +157,17 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center">
+          <div className="flex justify-center mb-4 sm:mb-6 animate-fade-in-up">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-autokey-MpHOVBDCheNw3CEnzXe4ZZxRp6nWtf.png"
+              alt="Logo Chaveiro Autokey ABC"
+              width={140}
+              height={140}
+              className="object-contain drop-shadow-2xl"
+              priority
+            />
+          </div>
+
           <div className="inline-flex items-center gap-2 bg-orange-600/20 border border-orange-600/50 rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 animate-fade-in-up">
             <Clock className="w-3 h-3 sm:w-4 sm:h-4 text-orange-500" />
             <span className="text-orange-500 text-xs sm:text-sm font-semibold">Atendimento 24 horas</span>
