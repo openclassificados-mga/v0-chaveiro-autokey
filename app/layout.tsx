@@ -8,17 +8,17 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://autosocorroexpress.vercel.app"),
+  metadataBase: new URL("https://v0-chaveiro-autokey.vercel.app"),
   title: {
-    default: "Auto Socorro Express - Guincho 24h em Maringá | (11) 91030-7671",
-    template: "%s | Auto Socorro Express",
+    default: "Chaveiro Autokey ABC | Atendimento 24h em São Paulo e ABC",
+    template: "%s | Chaveiro Autokey ABC",
   },
   description:
-    "Guincho 24 horas em Maringá e região. Atendimento rápido e seguro para carros, motos, caminhões e vans. Ligue agora: (11) 91030-7671",
-  keywords: "guincho maringá, auto socorro 24h, guincho leve, guincho pesado, socorro emergencial, reboque maringá",
-  authors: [{ name: "Auto Socorro Express" }],
-  creator: "Auto Socorro Express",
-  publisher: "Auto Socorro Express",
+    "Chaveiro Autokey ABC: atendimento domiciliar 24h em São Paulo e Grande ABC. Aberturas, cópia de chaves, instalação de fechaduras e controles. Garanta segurança com quem entende do assunto!",
+  keywords: "chaveiro, chaveiro 24h, chaveiro são paulo, chaveiro abc, abertura de fechadura, cópia de chave, chave automotiva, fechadura digital, controle de portão, tag de acesso",
+  authors: [{ name: "Chaveiro Autokey ABC" }],
+  creator: "Chaveiro Autokey ABC",
+  publisher: "Chaveiro Autokey ABC",
   generator: "v0.app",
 }
 
