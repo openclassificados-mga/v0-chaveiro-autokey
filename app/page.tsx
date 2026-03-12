@@ -554,7 +554,7 @@ export default function Home() {
           <div className="border-t border-zinc-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-zinc-500">
             <p>&copy; {new Date().getFullYear()} Chaveiro Autokey ABC. Todos os direitos reservados.</p>
             <p className="mt-2">Atendimento domiciliar 24 horas em São Paulo e Grande ABC</p>
-            <p className="mt-4 text-zinc-600 border-t border-zinc-700 pt-4">Criado por Webstudio</p>
+            <p className="mt-4 text-zinc-600 border-t border-zinc-700 pt-4">Criado por <a href="https://webstudiomga.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-500 transition-colors font-semibold">Webstudio</a></p>
           </div>
         </div>
       </footer>
