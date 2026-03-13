@@ -52,7 +52,7 @@ export default function Home(): JSX.Element {
     {
       icon: Lock,
       title: "Aberturas Residenciais e Automotivas",
-      description: "Desbloqueio profissional de portas, veículos e motocicletas sem danificar a fechadura",
+      description: "Desbloqueio profissional de portas, veículos e motocicletas sem danificar a fechadura ou cilindro.",
     },
     {
       icon: Key,
@@ -77,7 +77,7 @@ export default function Home(): JSX.Element {
     {
       icon: Clock,
       title: "Troca de Segredo",
-      description: "Troca de segredo para fechaduras residenciais mantendo a mesma chave",
+      description: "Troca de segredo para fechaduras residenciais ou unificação mantendo a mesma chave.",
     },
   ]
 
@@ -237,7 +237,7 @@ export default function Home(): JSX.Element {
             <div className="text-center">
               <div className="flex items-center justify-center gap-2 mb-2">
                 <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-orange-500" />
-                <div className="text-3xl sm:text-4xl font-bold text-white">ABC + SP</div>
+                <div className="text-3xl sm:text-4xl font-bold text-white">ABC + ZONA SUL DE SP</div>
               </div>
               <p className="text-sm sm:text-base text-zinc-400">Atendimento Domiciliar</p>
             </div>
