@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   creator: "Chaveiro Autokey ABC",
   publisher: "Chaveiro Autokey ABC",
   generator: "v0.app",
+  verification: {
+    google: "OQ18zxm5jwjtUma02of36qhsH3hzOuIvHqnZSk-kd_A",
+  },
   icons: {
     icon: "/favicon.ico",
   },
